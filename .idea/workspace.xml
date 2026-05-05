@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b6d83e-8497-4ada-84ee-ff78e571693c" name="Changes" comment="feat: GuessGame added">
-      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/EcommerceMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/ForTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/LoopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/PrintEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/SwitchTest.java" afterDir="false" />
+    <list default="true" id="19b6d83e-8497-4ada-84ee-ff78e571693c" name="Changes" comment="feat: new files added">
+      <change afterPath="$PROJECT_DIR$/src/com/java/fundamentals/GameCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,9 @@
     &quot;accountId&quot;: &quot;2edec271-0652-4fe7-9878-df927308c589&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -53,9 +52,12 @@
     "Application.EcommerceMenu.executor": "Run",
     "Application.ForCode.executor": "Run",
     "Application.ForTest.executor": "Run",
+    "Application.GameCalculator.executor": "Run",
+    "Application.GamingCalculator.executor": "Run",
     "Application.GuessGame.executor": "Run",
     "Application.InputTest.executor": "Run",
     "Application.LoopTest.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Operators.executor": "Run",
     "Application.PriceCalculator.executor": "Run",
     "Application.Primitives.executor": "Run",
@@ -82,22 +84,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="GuessGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fundamentals.GuessGame" />
+  <component name="RunManager" selected="Application.GameCalculator">
+    <configuration name="GameCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameCalculator" />
       <module name="java-fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.fundamentals.Primitives" />
+    <configuration name="GamingCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.fundamentals.GamingCalculator" />
       <module name="java-fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessGame" />
-        <item itemvalue="Application.Primitives" />
+        <item itemvalue="Application.GameCalculator" />
+        <item itemvalue="Application.GamingCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +124,10 @@
       <workItem from="1775633812294" duration="11527000" />
       <workItem from="1775743364937" duration="1158000" />
       <workItem from="1775744606515" duration="114000" />
-      <workItem from="1775807158993" duration="9111000" />
+      <workItem from="1775807158993" duration="9507000" />
+      <workItem from="1776697722103" duration="1395000" />
+      <workItem from="1777776599759" duration="26000" />
+      <workItem from="1777776663149" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="feat: hello world class">
       <option name="closed" value="true" />
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775744280179</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: new files added">
+      <option name="closed" value="true" />
+      <created>1775816403980</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775816403981</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +257,8 @@
     <MESSAGE value="feat: InputTest added" />
     <MESSAGE value="feat: Operators added" />
     <MESSAGE value="feat: GuessGame added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: GuessGame added" />
+    <MESSAGE value="feat: new files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new files added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
