@@ -10,4 +10,7 @@ public class Product {
     boolean isAvailable;
     String company;
     String category;
+
+    public Product() {
+    }
 }

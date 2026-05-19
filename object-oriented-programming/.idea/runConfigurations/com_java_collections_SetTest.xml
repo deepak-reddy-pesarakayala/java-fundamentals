@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="com.java.collections.SetTest" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.java.oop.collections.SetTest" />
+    <module name="object-oriented-programming" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
