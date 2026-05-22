@@ -1,10 +1,11 @@
-package com.java.oop.collections;
+package com.java.oop.collections.map;
 
+import com.java.oop.abstraction.Customer;
 import com.java.oop.util.InputUtil;
 
 public class CustomerUI {
 
-    public Customer displaySignupForm(){
+    public com.java.oop.collections.Customer displaySignupForm(){
         System.out.println("Signup Form");
         int id = InputUtil.getInt("Enter Id");
         String name = InputUtil.getString("Enter Name");

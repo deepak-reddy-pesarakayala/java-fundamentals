@@ -1,8 +1,11 @@
-package com.java.listassignment;
+package com.java.collections;
+
+import com.java.listassignment.ProductService;
+import com.java.listassignment.ProductServiceImplementation;
 
 public class Main {
     public static void main(String[] args) {
-        ProductService service = new ProductServiceImpl();
+        ProductService service = new ProductServiceImplementation();
 
         service.add(new Product(1, "shoe", "shoe", 500));
         service.findAllProduct();

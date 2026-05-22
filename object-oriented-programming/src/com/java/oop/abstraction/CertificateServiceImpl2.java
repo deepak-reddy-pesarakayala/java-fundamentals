@@ -15,7 +15,7 @@ public class CertificateServiceImpl2 implements CertificateService{
     public Certificate getCertificate(ApplicationForm applicationForm) {
         if(authenticate("admin", "admin@123")) {
             Certificate generatedCertificate = mro.generateCertificate(applicationForm);
-            printService.printcertificate(generatedCertificate);
+            printService.addPrintServiceAttributeListener(generatedCertificate);
             return generatedCertificate;
         } else
             return null;

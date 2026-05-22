@@ -1,9 +1,12 @@
-package com.java.listassignment;
+package com.java.collections;
+
+import com.java.listassignment.ProductService;
+import com.java.listassignment.ProductServiceImplementation;
 
 import java.util.Scanner;
 
 public class ProductUI {
-    private final ProductService service = new ProductServiceImpl();
+    private final ProductService service = new ProductServiceImplementation();
     private final Scanner scanner = new Scanner(System.in);
 
     public void displayMenu() {

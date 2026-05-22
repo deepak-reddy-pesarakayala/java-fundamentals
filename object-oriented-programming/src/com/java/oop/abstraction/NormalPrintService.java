@@ -1,6 +1,6 @@
 package com.java.oop.abstraction;
 
-public class NormalPrintService implements PrintService{
+public class NormalPrintService implements printService{
     @Override
     public void printCertificate(Certificate certificate) {
         System.out.println("Printing certificate in normal");

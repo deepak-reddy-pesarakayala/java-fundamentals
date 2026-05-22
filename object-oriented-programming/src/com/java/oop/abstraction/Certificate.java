@@ -1,6 +1,9 @@
 package com.java.oop.abstraction;
 
-public class Certificate {
+import javax.print.event.PrintServiceAttributeEvent;
+import javax.print.event.PrintServiceAttributeListener;
+
+public class Certificate implements PrintServiceAttributeListener {
     int id;
     String name;
     String issuedBy;
@@ -13,5 +16,10 @@ public class Certificate {
         this.issuedBy = issuedBy;
         this.issuedTo = issuedTo;
         this.issuedDate = issuedDate;
+    }
+
+    @Override
+    public void attributeUpdate(PrintServiceAttributeEvent psae) {
+
     }
 }

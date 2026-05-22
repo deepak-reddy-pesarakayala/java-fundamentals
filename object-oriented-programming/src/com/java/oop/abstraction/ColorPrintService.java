@@ -1,6 +1,6 @@
 package com.java.oop.abstraction;
 
-public class ColorPrintService implements PrintService {
+public class ColorPrintService implements printService {
     @Override
     public void printCertificate(Certificate certificate) {
         System.out.println("Printing certificate in color");

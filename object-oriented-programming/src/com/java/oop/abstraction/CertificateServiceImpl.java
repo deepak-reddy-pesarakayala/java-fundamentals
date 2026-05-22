@@ -1,5 +1,7 @@
 package com.java.oop.abstraction;
 
+import javax.print.PrintService;
+
 public class CertificateServiceImpl implements CertificateService{
 
     Attender attender;
@@ -14,7 +16,7 @@ public class CertificateServiceImpl implements CertificateService{
     public Certificate getCertificate(ApplicationForm applicationForm) {
         if(authenticate("admin", "admin@123")) {
             Certificate generatedCertificate = attender.processCertificate(applicationForm);
-            printService.printCertificate(generatedCertificate);
+            printService.addPrintServiceAttributeListener(generatedCertificate);
 
             return generatedCertificate;
         } else

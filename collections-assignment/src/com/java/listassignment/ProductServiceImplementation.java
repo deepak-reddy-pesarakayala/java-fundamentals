@@ -1,9 +1,11 @@
 package com.java.listassignment;
 
+import com.java.collections.Product;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImplementation implements ProductService {
 
     private final List<Product> productList = new ArrayList<>();
 

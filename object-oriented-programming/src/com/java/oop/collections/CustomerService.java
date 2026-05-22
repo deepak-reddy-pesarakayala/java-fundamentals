@@ -3,7 +3,7 @@ package com.java.oop.collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerService {
+class CustomerService {
 
     private List<Customer> customersList;
     public CustomerService(){
@@ -14,7 +14,7 @@ public class CustomerService {
         System.out.println("----------------------------");
         System.out.println("Id : " + customer.id );
         System.out.println("Name : " + customer.name);
-        System.out.println("Email : " + customer.email);
+        System.out.println("Email : " + customer.id);
         System.out.println("--------------------------------");
     }
 
@@ -41,4 +41,5 @@ public class CustomerService {
         customersList.add(customer);
         return customer;
     }
+
 }

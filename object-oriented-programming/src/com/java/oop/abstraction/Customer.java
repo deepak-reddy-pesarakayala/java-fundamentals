@@ -16,4 +16,7 @@ public class Customer {
         this.phoneNo = phoneNo;
         this.adharNo = adharNo;
     }
+
+    public Customer(int id, String name, String email) {
+    }
 }

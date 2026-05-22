@@ -1,5 +1,7 @@
+package com.java.collections;
+
 public class Product {
-    int id;
+    public int id;
     String name;
     String category;
     int maxRetailPrice;
